@@ -55,6 +55,12 @@
             </div>
         </div>
 
+        <div class="follow">
+            <h2>FOLLOW ME</h2>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instaへのリンクです" class="insta">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebookへのリンクです" class="facebook">
+        </div>
+
 
 
 

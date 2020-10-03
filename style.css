@@ -78,7 +78,8 @@ header {
 
 .info h2,
 .new_item h2,
-.item_list h2 {
+.item_list h2,
+.follow h2 {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 60px;
 }
@@ -95,6 +96,16 @@ header {
 .item_list p {
     padding-top: 10px;
     padding-bottom: 50px;
+}
+
+.insta {
+    width: 100px;
+    height: 100px;
+}
+
+.facebook {
+    width: 65px;
+    height: 65px;
 }
 
 footer {
