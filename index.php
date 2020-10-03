@@ -57,8 +57,14 @@
 
         <div class="follow">
             <h2>FOLLOW ME</h2>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instaへのリンクです" class="insta">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebookへのリンクです" class="facebook">
+            <ul>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instaへのリンクです" class="insta">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebookへのリンクです" class="facebook">
+                </li>
+            </ul>
         </div>
 
 
@@ -67,14 +73,16 @@
 
     </div>
 <footer>
-    <!-- 10/3 ここから ====================================================-->
+    <!-- 10/4 ここから ====================================================-->
     <h2>MAKANA</h2>
-    <ul>
-        <li>〒868-0000</li>
-        <li>熊本県人吉市瓦屋町</li>
-        <li>0000-00</li>
-        <li>TEL:090-1234-5678</li>
-    </ul>
+    <div class="adress_box">
+        <address>
+        〒868-0000
+        <br>熊本県人吉市瓦屋町
+        <br>0000-00
+        <br>TEL:090-1234-5678
+        </address>
+    </div>
 </footer>
 <?php wp_footer(); ?>    
 </body>
