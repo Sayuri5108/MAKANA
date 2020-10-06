@@ -40,8 +40,6 @@
                 <?php else:?>
                 <?php endif;?>
                 <?php wp_reset_postdata(); ?>
-
-                <a href="<?php include( TEMPLATEPATH . '/archive.php' ); ?>">もっと見る</a>
                 
             </div>
         </div>
