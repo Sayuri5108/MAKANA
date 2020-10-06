@@ -62,18 +62,14 @@ img {
 
 header {
     background-image: url(./img/header.png);
-    height: 200px;
-    width: 900px;
+    height: 250px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0 auto 50px auto;
+    text-align: center;
+    background-size: 100%;
 }
 
-.main,
-footer {
-    display: flex;
-    flex-direction:column
-}
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
@@ -85,8 +81,16 @@ footer {
     font-size: 60px;
 }
 
+.slide_img {
+    margin-top: 50px;
+}
+
 .new_item {
     margin-top: 50px;
+}
+
+.new_item span {
+    color: red;
 }
 
 .item_list {
@@ -108,6 +112,11 @@ footer {
     margin-top: 50px;
 }
 
+.follow h2 {
+    display: inline-block;
+    border-bottom: medium solid black;
+}
+
 .insta {
     width: 65px;
     height: 65px;
@@ -123,6 +132,7 @@ footer {
 footer {
     background-color: black;
     position: relative;
+    height: 150px;
 }
 
 footer h2 {
@@ -130,16 +140,15 @@ footer h2 {
     position: absolute;
     top: 20px;
     left: 20px;
+    font-size: 40px;
 }
 
-.address_box {
-    /* position: absolute; */
-    text-align: right;
-    right: 20px;
-    top: 20px;
-	padding: 15px 20px 13px;
+footer p {
+    color: white;
+    float: right;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 50px;
 }
 
-address {
-    color:white;
-}
+

@@ -10,6 +10,8 @@
 <body>
 
     <header>
+        <div class="header_area">
+        </div>
     </header>
 
     <div class="main">
@@ -27,7 +29,7 @@
         </div>
 
         <div class="new_item">
-            <h2>NEW ITEM</h2>
+            <h2><span>NEW</span> ITEM</h2>
             <?php $query = new WP_Query( ['post_type' => 'new_item' ,'posts_per_page' => 1 ]); ?>
             <?php if($query->have_posts()):?>
             <?php while($query->have_posts()): $query->the_post(); ?>
@@ -75,14 +77,12 @@
 <footer>
     <!-- 10/4 ここから ====================================================-->
     <h2>MAKANA</h2>
-    <div class="adress_box">
-        <address>
+        <p>
         〒868-0000
         <br>熊本県人吉市瓦屋町
         <br>0000-00
         <br>TEL:090-1234-5678
-        </address>
-    </div>
+        </p>
 </footer>
 <?php wp_footer(); ?>    
 </body>
