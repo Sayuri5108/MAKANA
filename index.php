@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all">
-    <title>MAKANA</title>
-    <?php wp_head(); ?>
-</head>
-<body>
-
-    <header>
-        <div class="header_area">
-        </div>
-    </header>
+<?php get_header(); ?>
 
     <div class="main">
 
@@ -54,6 +40,9 @@
                 <?php else:?>
                 <?php endif;?>
                 <?php wp_reset_postdata(); ?>
+
+                <a href="<?php include( TEMPLATEPATH . '/archive.php' ); ?>">もっと見る</a>
+                
             </div>
         </div>
 
@@ -74,16 +63,4 @@
 
 
     </div>
-<footer>
-    <!-- 10/4 ここから ====================================================-->
-    <h2>MAKANA</h2>
-        <p>
-        〒868-0000
-        <br>熊本県人吉市瓦屋町
-        <br>0000-00
-        <br>TEL:090-1234-5678
-        </p>
-</footer>
-<?php wp_footer(); ?>    
-</body>
-</html>
+    <?php get_footer(); ?>
