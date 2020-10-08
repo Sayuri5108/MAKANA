@@ -41,7 +41,7 @@
                 <?php endif;?>
                 <?php wp_reset_postdata(); ?>
             </div>
-            <a href="<?php echo get_post_type_archive_link(get_post_type()); ?>">もっと見る</a>
+            <a href="<?php echo get_post_type_archive_link(get_post_type()); ?>" class="link" >...MORE ITEM</a>
         </div>
 
         <div class="follow">
