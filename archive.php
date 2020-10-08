@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<h1>アーカイブページ</h1>
 
     <div class="main">
 
