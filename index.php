@@ -36,6 +36,7 @@
                 <?php while($query->have_posts()): $query->the_post(); ?>
                 <img src="<?php the_field("item_list_img") ;?>" class="item_list_img"> 
                 <p><?php the_field("item_list_info") ;?></p>
+                <p><?php the_field("item_list_price") ;?></p>
                 <?php endwhile;?>
                 <?php else:?>
                 <?php endif;?>

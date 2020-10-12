@@ -98,9 +98,13 @@ header {
     margin-bottom: 50px;
 }
 
+.item_list img {
+    margin-top: 50px;
+}
+
 .item_list p {
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .link {
@@ -158,3 +162,20 @@ footer p {
 }
 
 
+/* archive_items========================================== */
+
+.archive_items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.thumbnail {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+/* .archive_items p {
+    width: 400px;
+} */
