@@ -108,12 +108,29 @@ header {
 }
 
 .link {
-    color: coral;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 40px;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    /* font-size: 40px; */
+}
+
+.btn{
+    line-height: 1.25;
+    text-decoration:none;
+    font-weight:bold;
+    background: black;
+    color:#fff !important;
+    border-radius:.5em;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    transition:.3s;
+}
+
+a:hover{
+    opacity:.75;
 }
 
 .follow {
+    margin-top: 200px;
     margin-bottom: 200px;
 }
 .follow li {
@@ -125,6 +142,10 @@ header {
 .follow h2 {
     display: inline-block;
     border-bottom: medium solid black;
+}
+
+.follow p {
+    margin-top: 10px;
 }
 
 .insta {

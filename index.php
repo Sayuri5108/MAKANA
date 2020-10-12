@@ -42,11 +42,12 @@
                 <?php endif;?>
                 <?php wp_reset_postdata(); ?>
             </div>
-            <a href="<?php echo get_post_type_archive_link(get_post_type()); ?>" class="link" >...MORE ITEM</a>
+            <a href="<?php echo get_post_type_archive_link(get_post_type()); ?>" class="link btn" >商品をもっと見る >></a>
         </div>
 
         <div class="follow">
             <h2>FOLLOW ME</h2>
+            <p>↓↓その他商品や各マルシェへの出店情報等載せております!!↓↓</p>
             <ul>
                 <li>
                 <a href="<?php echo esc_url( 'https://www.instagram.com/makana.1014/' ); ?>" rel="noopener" target="_blank">
