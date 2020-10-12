@@ -49,7 +49,9 @@
             <h2>FOLLOW ME</h2>
             <ul>
                 <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instaへのリンクです" class="insta">
+                <a href="<?php echo esc_url( 'https://www.instagram.com/makana.1014/' ); ?>" rel="noopener" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instaへのリンクです" class="insta">
+                </a>
                 </li>
                 <li>
                     <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebookへのリンクです" class="facebook">
