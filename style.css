@@ -107,11 +107,6 @@ header {
     padding-bottom: 10px;
 }
 
-.link {
-    /* font-family: 'Ubuntu Mono', monospace; */
-    /* font-size: 40px; */
-}
-
 .btn{
     line-height: 1.25;
     text-decoration:none;
@@ -148,6 +143,10 @@ a:hover{
     margin-top: 10px;
 }
 
+.follow span {
+    color: red;
+}
+
 .insta {
     width: 65px;
     height: 65px;
@@ -162,24 +161,25 @@ a:hover{
 
 footer {
     background-color: black;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     height: 150px;
 }
 
 footer h2 {
     color: white;
-    position: absolute;
-    top: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
     left: 20px;
     font-size: 40px;
 }
 
 footer p {
     color: white;
-    float: right;
     text-align: left;
     margin-top: 30px;
-    margin-right: 50px;
+    margin-right: 10px;
+    font-size: 12px;
 }
 
 
@@ -197,6 +197,30 @@ footer p {
     margin-left: 40px;
 }
 
-/* .archive_items p {
-    width: 400px;
-} */
+@media screen and (min-width: 421px) {
+    .sp_br {
+        display: none;
+    }
+  }
+
+/* ここからSP版============================================= */
+@media screen and (max-width: 420px) {
+    
+    
+    header {
+        height: 100px;
+    }
+    
+    .new_item img,
+    .item_list img {
+        width: 400px;
+    }
+
+    .insta {
+        margin-right: 50px;
+    }
+    
+    .facebook {
+        margin-left: 50px;
+    }
+}

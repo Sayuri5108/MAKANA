@@ -9,8 +9,8 @@
         <div class="info">
             <h2>INFOMATION</h2>
             <p>"MAKANA"へようこそ。
-            <br>”MAKANA”とはハワイの言葉で"贈り物”という意味です。
-            <br>皆さんの大切な方への贈り物に選んでいただけると嬉しいです。
+            <br>”MAKANA”とはハワイの言葉で<br class="sp_br">”贈り物”という意味です。
+            <br>皆さんの大切な方への贈り物に<br class="sp_br">選んでいただけると嬉しいです。
             </p>
         </div>
 
@@ -47,7 +47,7 @@
 
         <div class="follow">
             <h2>FOLLOW ME</h2>
-            <p>掲載中商品の詳細情報や<br>その他商品、各マルシェへの出店情報等<br>載せております!!</p>
+            <p><span>※</span>掲載中商品の詳細情報やその他商品、<br class="sp_br">各マルシェへの出店情報等<br class="sp_br">載せております!!</p>
             <ul>
                 <li>
                 <a href="<?php echo esc_url( 'https://www.instagram.com/makana.1014/' ); ?>" rel="noopener" target="_blank">
