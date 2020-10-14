@@ -89,6 +89,10 @@ header {
     margin-top: 50px;
 }
 
+.new_item img {
+    margin-top: 50px;
+}
+
 .new_item span {
     color: red;
 }
@@ -179,7 +183,6 @@ footer p {
     text-align: left;
     margin-top: 30px;
     margin-right: 10px;
-    font-size: 12px;
 }
 
 
@@ -211,6 +214,7 @@ footer p {
         height: 100px;
     }
     
+    .slide_img img,
     .new_item img,
     .item_list img {
         width: 400px;
@@ -222,5 +226,9 @@ footer p {
     
     .facebook {
         margin-left: 50px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
