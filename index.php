@@ -47,7 +47,7 @@
 
         <div class="follow">
             <h2>FOLLOW ME</h2>
-            <p>↓↓その他商品や各マルシェへの出店情報等載せております!!↓↓</p>
+            <p>掲載中商品の詳細情報や<br>その他商品、各マルシェへの出店情報等<br>載せております!!</p>
             <ul>
                 <li>
                 <a href="<?php echo esc_url( 'https://www.instagram.com/makana.1014/' ); ?>" rel="noopener" target="_blank">
